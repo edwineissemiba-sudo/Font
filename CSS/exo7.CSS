@@ -1,0 +1,68 @@
+.container{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.ligne1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.rond{
+    background-color: brown;
+    border-radius: 50%;
+    width: 4%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jardin{
+    justify-content: flex-start;
+    transform: translate(-100%);
+}
+.coin{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10%;
+}
+.tableau{
+    background: linear-gradient(white,antiquewhite);
+}
+.rectangle{
+    border: 2px solid black;
+    height: 350px;
+    width: 80%;
+    border-radius: 6px;
+    margin: auto;
+}
+.bouton1{
+    background-color: burlywood;
+    border: none;
+    border-radius: 30px;
+    width: 30%;
+    height: 30px;
+}
+.bouton2{
+    background-color: chocolate;
+    border: none;
+    border-radius: 5px;
+    width:15% ;
+    height:30px ;
+    color: white;
+    top: 50%;
+}
+.bouton3{
+    border: 2px solid chocolate;
+    border-radius: 5px;
+    height: 35px;
+    width:10% ;
+    color: chocolate;
+}
+.photo{
+    width: 450px;
+    height: auto;
+    position: relative;
+    top: -250px;
+    left: 250px;
+}
