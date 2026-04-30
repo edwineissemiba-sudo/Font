@@ -1,0 +1,64 @@
+/* .container{
+    width: 80%;
+    height: 100%;
+    border: 2px solid black;
+    padding-left: 10%;
+}
+.ligne{
+    display: flex;
+    gap: 25%;
+}
+.meme{
+    display: flex;
+}
+.i{
+    color: cornflowerblue;
+}
+.m{
+    padding-left: 2%;
+} */
+
+.container{
+    width: 40%;
+    height: 500px;
+    border: 2px solid black;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.container h1{
+    font-size: 20px;
+}
+
+.container p{
+    font-size: 16px;
+}
+
+.contentInput{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contentInput div input{
+    width: 100%;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.content{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.content input{
+    width: 100%;
+    margin-top: 5px;
+    height: 25px;
+}
+.content {
+    width: 100%;
+    margin-top: 5px;
+    height: 25px;
+}
